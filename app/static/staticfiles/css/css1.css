@@ -1,0 +1,179 @@
+/* new registeration  */
+#bd{
+    background-color:lightblue;
+}
+
+#divv1{
+    justify-content: space-evenly;
+    height: 500px;
+    width: 300px;
+    background-color:lightpink;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 30px;
+}
+#btn1{
+    width: 200px;
+    margin-left: 20px;
+}
+#ban{
+    height: 500px;
+    margin-top: -450px;
+    margin-left: 370px;
+}
+#logo{
+    margin-top: -100px;
+    margin-left: -200PX;
+    height: 50px;
+}
+
+/* login page */
+
+#divv2{
+
+    padding: 30px;
+    margin-left: 800px;
+    margin-top: 100px;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+   
+}
+
+#logo1{
+    height: 50px;
+    margin-left: 400px;
+    margin-top: -120px;
+}
+#btn2{
+    width: 200px;
+    margin-left: 130px;
+}
+
+#ban2{
+    
+    height: 620px;
+    width: 800px;
+   margin-bottom: -15000;
+   
+   
+}
+
+/* passenger page css */
+
+
+#info{
+    /* background-color: rgb(11, 238, 238); */
+  margin-left: 740px;
+  width: 600px;
+  padding: 30PX;
+  height: 380PX;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+
+#details{
+    background-color: rgb(248, 248, 19);
+    height: 250px;
+    margin-left:740px;
+    width: 600px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+
+
+#pick{
+  height: 50px;
+  width: 500px;
+  border-radius: 10px;
+  border-color: black;
+}
+
+#drop{
+    height: 50px;
+  width: 500px;
+  border-radius: 10px;
+  border-color: black;
+}
+
+#livee{
+ margin-left: 359px;
+ margin-top: -72px;
+ height: 45px;
+}
+
+#findride{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+#map{
+     height: 600px;
+        width: 700px;
+        margin-top: -620px;
+        margin-left: 20px;
+
+}
+
+#logo11{
+    margin-left: 400px;
+    margin-top: -70px;
+    height: 50px;
+}
+
+#spin{
+    margin-left: 400px;
+    margin-top: -100px;
+}
+
+#search{
+    margin-left: 300px;
+    position: relative;
+    top: -240px;
+    
+}
+
+
+/* home page css */
+
+#bdh{
+    background-color: black;
+}
+
+#ww{
+    color: rgb(15, 15, 15);
+    margin-left: 150px;
+
+}
+
+#box{
+    height: 300px;
+    width: 700px;
+    margin-left: 300px;
+    margin-top: 200px;
+    background-color: rgb(241, 245, 245);
+    border-radius: 20px;
+}
+
+#logo99{
+    margin-left: 600px;
+    margin-top: -100px;
+}
+
+#pas
+{
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+#ri{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+#start{
+    margin-left: 50px;
+}

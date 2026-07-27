@@ -1,0 +1,42 @@
+
+{% load bootstrap5 %}
+{% load static %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static '/staticfiles/css/css1.css/' %}">
+</head>
+<body id="bd">
+ 
+    <div id="divv1">
+             <img  id="logo"   src="{% static '/staticfiles/images/Logo.svg'%}" alt="">
+  
+          
+  
+    <form action="" method="post">
+        <h1>REGISTER</h1><br><br>
+        {% csrf_token %}
+
+    
+        USER NAME:
+        <input class="form-control" type="text" aria-label="readonly input example"  name="name"><br><br>
+        PASSWORD:
+         <input class="form-control" type="password" aria-label="readonly input example"  name="pass"><br><br>
+      
+
+
+
+        <button class="btn btn-primary" type="submit" id="btn1">Submit</button>
+
+    </form>
+     <img  id="ban"   src="{% static '/staticfiles/images/ban.png'%}" alt="">
+    </div>
+   
+
+</body>
+</html>

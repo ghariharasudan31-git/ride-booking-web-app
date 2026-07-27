@@ -1,0 +1,35 @@
+{% load static %}
+{% load bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIDE</title>
+    
+      <link rel="stylesheet" href="{% static 'staticfiles/css/css1.css' %}">
+
+    
+</head>
+<body id="bdh">
+    <div id="box">
+<h1 id="ww">
+    WELCOME RAPIDO
+
+</h1>
+
+<h1  id="start" >
+    START YOUR JOURNEY !
+</h1>
+
+  <img  id="logo99"   src="{% static '/staticfiles/images/Logo.svg'%}" alt="">
+  <br><br>
+
+<a href="/ride/passenger/"><button  class="btn btn-primary" id="pas"  >passenger</button></a>
+<a href="/ride/rider/"><button class="btn btn-primary"   id="ri"  >rider</button></a>
+
+</div>
+</body>
+</html>

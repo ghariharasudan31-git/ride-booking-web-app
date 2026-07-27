@@ -1,0 +1,102 @@
+{% load static %}
+{% load bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+      <link rel="stylesheet" href="{% static '/staticfiles/css/css1.css' %}">
+
+    
+
+    <link rel="stylesheet"
+href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+
+<link
+rel="stylesheet"
+href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css"/>
+
+
+</head>
+<body>
+    <div id="info">
+    <h3>START YOUR JOURNEY !</h3><BR>
+         <img  id="logo11"   src="{% static '/staticfiles/images/Logo.svg'%}" alt="">
+
+    <form action="" method="post">
+        {% csrf_token %}
+
+        PICK UP:  <br>
+    
+         <input class="form-control" type="text" aria-label="readonly input example"  name="pick" placeholder="select pick up location"  id="pick" ><br>
+       
+        <button class="btn btn-dark" type="button"  onclick="getloc()" id="livee">use live location</button><br><br>
+
+        DROP:   <br>
+        <input type="text"  placeholder="select drop location"  name="drop"  id="drop" class="form-control" aria-label="readonly input example" ><br><br>
+
+
+
+
+
+        <button type="submit"  class="btn btn-dark" id="findride"> find ride</button>
+
+    </div>
+
+
+        <div id="details">
+
+<h3>Ride Details</h3>
+
+<p id="distance" >Distance : --</p>
+
+    <input type="hidden" name="distancein"   id="distancein">
+
+<p id="time"  name=""  >Time : --</p>
+            <input type="hidden" name="timein"   id="timein">
+
+<p id="fare">Fare : --</p>
+            <input type="hidden" name="farein"  id="farein">
+
+   <p id="latitude">-----</p>
+    <p id="longitude">---</p>
+
+    <h2 id="search">Searching riders</h2>
+  
+    <div class="spinner-border" role="status"  id="spin">
+           
+  <span class="visually-hidden">Loading...</span>
+</div>
+
+
+</div>
+
+
+
+    </form>
+
+    <div id="map">
+
+
+    </div>
+
+
+
+ 
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+
+<script src="{% static 'staticfiles/javascript/passenger.js' %}"></script>
+
+
+    
+   
+</body>
+</html>
